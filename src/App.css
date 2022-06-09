@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+ margin-left: 20px;
 }
 
 .App-logo {
@@ -27,7 +27,40 @@
 .App-link {
   color: #61dafb;
 }
-
+.submit{
+  background-color: rgb(89, 143, 243);
+  border: 0px;
+  margin-top: 15px;
+  padding: 6px 15px;
+  border-radius: 4px;
+  color: rgb(15, 15, 15);
+  margin-left:6px;
+  box-shadow: #333 0px 1px 5px;
+}
+.delete{
+  background-color: rgb(253, 68, 77);
+  border: 0px;
+  margin-top: 15px;
+  padding: 6px 15px;
+  border-radius: 4px;
+  color: rgb(15, 15, 15);
+  margin-left:6px;
+  box-shadow: #333 0px 1px 5px;
+}
+.input{
+  font-family: inherit;
+  width: 16%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: rgb(10, 10, 10);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  font-size: 14px;
+  margin-top: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
